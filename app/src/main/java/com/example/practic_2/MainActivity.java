@@ -1,6 +1,7 @@
 package com.example.practic_2;
 
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +21,17 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void onStepAge(View vew){
+        setContentView(R.layout.step_2);
+    }
+
+    public void onStepSex(View view){
+        setContentView(R.layout.step_3);
+    }
+
+    public void onStepCard(View view){
+        setContentView(R.layout.step_4);
     }
 }
