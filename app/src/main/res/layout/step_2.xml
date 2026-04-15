@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Привет, очень приятно познакомиться!\nЯ друзья меня называют шлюхой, и ты можешь!\n Как зовут тебя?"
+        android:text="Привет, очень приятно познакомиться!\nДрузья меня называют шлюхой, и ты можешь!\n Как зовут тебя?"
         android:textAlignment="center"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,6 +58,7 @@
         android:text="ПРОДОЛЖИТЬ"
         android:textColor="#0099FF"
         android:textColorLink="@color/white"
+        app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
